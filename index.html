@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- The charset attribute specifies the character encoding for the HTML document. -->
+        <meta charset="UTF-8">
+         
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+        <!-- custom font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+
+        <!-- The website title -->
+        <title>Silard Gal</title>
+
+        <meta name ="description" content ="I'm an Embedded System Engineer based in Serbia. I have had the opportunity to work in both large and small companies where I have contributed to the development of various hardware products.">
+    
+        <meta property="og:title" content="Silard Gal - Embedded System Engineer" />
+        <meta property="og:description" content="I'm an Embedded System Engineer based in Serbia. I have had the opportunity to work in both large and small companies where I have contributed to the development of various hardware products." />
+        <meta property="og:image" content="https://silardgal.com/pics/og_background_main.png" />
+        <meta property="og:site_name" content="Silard Gal" />
+        <meta property="og:url" content="https://silardgal.com/" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@silardgal" />
+        <meta name="twitter:title" content="Silard Gal - Embedded System Engineer" />
+        <meta name="twitter:description" content="I'm an Embedded System Engineer based in Serbia. I have had the opportunity to work in both large and small companies where I have contributed to the development of various hardware products." />
+        <meta name="twitter:image" content="https://silardgal.com/pics/og_background_main.png" />
+
+        <!-- CSS File -->
+        <style>
+            body{
+                font-family: 'Golos Text', sans-serif;
+                color: black;
+                background-image: linear-gradient(to bottom right, #2ecc71, #3498db);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- get the feeling as a card -->
+        <div class="container-fluid" style="width: 90%; margin-top: 3rem;">
+            <nav class="navbar">
+                <div class="container-fluid" style=" border-style: solid; border-width: .2rem; border-top: 0; border-left: 0; border-right: 0;">
+                    <span class="navbar-text text-dark" style="font-size: large;">
+                        Silard Gal
+                    </span>
+                    <span class="navbar-text text-dark" style="font-size: large;">
+                        <a href="mailto:contact@silardgal.com" class="link-dark" style="text-decoration: none;">contact@silardgal.com</a>
+                    </span>
+                </div>
+            </nav>
+            <!-- main hi page-->
+            <div class="container-fluid">
+                <br>
+                <h1 class="display-1">hello 👋</h1>
+                <h3>
+                    my name is Silard,<br>
+                    <h3 id="yearCalculated"></h3> 
+                    <h3 id="experienceCalculation"></h3><h3><br>
+                    
+                    feel free to contact me<br>
+                    we can grab a coffee and<br>
+                    discuss tech<br><br>
+
+                    connect with me on <a href="https://www.linkedin.com/in/silard-gal/" target="_blank" class="link-dark">LinkedIn</a> - <a href="https://twitter.com/silardgal" target="_blank" class="link-dark">Twitter</a>
+                    <br><br>
+
+                </h3>
+            </div>
+            <!-- about me -->
+            <div class="container-fluid">
+                <div class="container-fluid" style="border-style: solid; border-width: .2rem; border-left: 0; border-right: 0;">
+                    <h5>about me</h5>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-6 mb-6 mb-lg-0 text-center">
+                        <img
+                            src="./pics/profile-removebg.png"
+                            class="w-300 shadow-1-strong  mb-4"
+                            
+                        />
+                    </div>
+                    <div class="col-lg-6 mb-6 mb-lg-0 ">
+                        <p class="text-lg ">
+                            <p id="experienceCalculation1"></p>
+                            In addition to my professional experience, I have been doing freelance work for over 5 years with clients from all over the world. I am proud to have worked on 15+ projects, which have given me the opportunity to hone my skills in firmware and hardware development.
+                            <br><br>
+                            My passion lies in creating innovative hardware products, and I am committed to bringing my clients' ideas to the final manufactured form. If you are looking for a skilled and experienced embedded system engineer, I am here to help you bring your project to life. Please feel free to explore my website to learn more about my work and experience.
+                            <br><br>
+                            To get a better grasp of my experience, feel free to view my CV below.
+                        </p>
+                        <div class="text-center">
+                            <a href="docs/Silard_Gal_CV.pdf" target="_blank">
+                                <button type="button" class="btn btn-dark">
+                                    &nbsp;&nbsp;
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
+                                        <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                        <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"/>
+                                    </svg>
+                                    View my CV
+                                    &nbsp;&nbsp;
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <!-- portfolio -->
+            <div class="container-fluid">
+                <div class="container-fluid" style="border-style: solid; border-width: .2rem; border-left: 0; border-right: 0;">
+                    <h5>portfolio</h5>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/cube.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_cube"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/punch.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_punch"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/1punch.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_punch"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/PLC.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_plc"
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/heat.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_heating"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/led.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_led"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/robot6.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_robot"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/power1.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_power"
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/power2.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_power"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/robot1.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_robot"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/robot2.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_robot"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/robot3.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_robot"
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/pierre.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_pierre"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/parking.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_parking"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/retail.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_retail"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/toilet.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_toilet"
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/lidar.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_robot"
+                            />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/robot4.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_robot"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/robot5.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_robot"
+                        />
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img
+                            src="./pics/misc.png"
+                            class="shadow-1-strong  mb-4 img-fluid"
+                            
+                            data-bs-toggle="modal" data-bs-target="#modal_misc"
+                        />
+                    </div>
+                </div>
+                
+            </div>
+            <!-- my skills -->
+            <div class="container-fluid">
+                <div class="container-fluid" style="border-style: solid; border-width: .2rem; border-left: 0; border-right: 0;">
+                    <h5>skills and tools</h5>
+                </div>
+                <br>
+                <div class="row">
+                    <h5>
+                        <b style="font-size: 1.33rem;">High Speed Design</b> -
+                        Power Design -
+                        Antenna Design -
+                        <b style="font-size: 2rem;">Digital Design</b> -
+                        <b style="font-size: 1.33rem;">Product Design</b> -
+                        <b style="font-size: 2rem;">Product Development</b> -
+                        Manufacturing Optimization -
+                        BOM Optimization -
+                        <b style="font-size: 2rem;">C/C++</b> -
+                        <b style="font-size: 1.33rem;">Python</b> -
+                        HTML5 -
+                        CSS -
+                        JavaScript -
+                        <b style="font-size: 1.33rem;">Soldering Iron</b> -
+                        <b style="font-size: 1.33rem;">Hot Air Gun</b> -
+                        Reflow Oven -
+                        <b style="font-size: 2rem;">VSCode</b> -
+                        Atmel Studio -
+                        MPLAB® X IDE -
+                        <b style="font-size: 1.33rem;">KiCAD</b> -
+                        <b style="font-size: 2rem;">Altium Designer</b> -
+                        LTSpice -
+                        Git -
+                        SVN -
+                        Data Analysis -
+                        <b style="font-size: 1.33rem;">Strategic Planning</b> -
+                        <b style="font-size: 1.33rem;">Time Management</b> -
+                        Linux -
+                        CI/CD -
+                        <b style="font-size: 1.33rem;">Hardware Automated Testing</b>
+                    </h5>
+                </div>
+                <br>
+            </div>
+            <!-- connect with me -->
+            <div class="container-fluid">
+                <div class="container-fluid" style="border-style: solid; border-width: .2rem; border-left: 0; border-right: 0;">
+                    <h5>social media presence</h5>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-12 mb-12 mb-lg-0 text-left">
+                        <h2 class="display-4">Reach me</h2>
+                        <p>
+                            Thank you for considering contacting me!
+                            <br><br>
+                            I value your feedback and appreciate your interest in my work. I will do my best to respond to your message as soon as possible. Let's stay in touch!
+                        </p>
+                        <div class="d-grid gap-1 d-md-block">
+                            <a href="https://www.linkedin.com/in/silard-gal/" style="text-decoration: none;" target="_blank">
+                                <button class="btn btn-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                    </svg>
+                                    &nbsp;
+                                    LinkedIn
+                                </button>
+                            </a>
+                            &nbsp;&nbsp;&nbsp;
+                            <a href="https://twitter.com/silardgal" style="text-decoration: none;" target="_blank">
+                                <button class="btn btn-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                    </svg>
+                                    &nbsp;
+                                    Twitter
+                                </button>
+                            </a>
+                            &nbsp;&nbsp;&nbsp;
+                            <a href="https://github.com/silardg" style="text-decoration: none;" target="_blank">
+                                <button class="btn btn-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    &nbsp;
+                                    GitHub
+                                </button>
+                            </a>
+                            &nbsp;&nbsp;&nbsp;
+                            <a href="mailto:contact@silardgal.com">
+                                <button class="btn btn-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                                        <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                                        <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                                    </svg>
+                                    &nbsp;
+                                    Email
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+  
+        <!-- Modal CUBE-->
+        <div class="modal fade" id="modal_cube" tabindex="-1" aria-labelledby="modal_cube_label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_cube_label">Project CUBE</h5>
+                        <button type="button" class="btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            The CUBE project is my latest personal endeavor that showcases my PCB design expertise.
+                            <br><br>
+                            Consisting of three individual boards, each with a specific function, the CUBE project's components are connected using high-speed connectors, alongside a battery and casing. When fully assembled, the product measures a compact three cubic centimeters.
+                            <br><br>
+                            The first board, situated at the bottom, is the power board, featuring a USB-C connector for battery charging and communication to the main chip, along with a 3.3V buck regulator, Li-Po charger, and a BGA-packaged fuel gauge. Temperature sensors on the board's underside monitor battery temperature, presenting power design and BGA package usage.
+                            <br><br>
+                            The second board, located in the middle, houses an ESP32-S2 with an antenna for WiFi and Bluetooth capabilities, showcasing proper MCU placement and routing with double-sided assembly practices.
+                            <br><br>    
+                            The third board, positioned on top, is the sensor board, equipped with RGB LEDs, temperature/humidity, accelerometer/gyroscope sensors, and a ToF sensor, demonstrating proper I2C communication standards and isolating critical sensors like the temperature/humidity sensor.
+                            <br><br>
+                            The casing is simplistic and features cutouts at the connectors and buttons.
+                            <br><br>
+                            This project was completed using Altium Designer, with FreeCAD utilized for the casing. The Altium Designer multiboard feature was used to ensure that all boards align perfectly.
+                            <br><Br>
+                            This project can be found on GitHub, <a href="https://github.com/silardg/CUBE" target="_blank">here</a>.                        
+                        </p>
+                        <div class="row text-center">
+                            <div class="col-lg-3 mb-3 mb-lg-0">
+                                <img
+                                    src="./pics/cube/0.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                    
+                                />
+                                <p>Full Project</p>
+                            </div>
+                            <div class="col-lg-3 mb-3 mb-lg-0">
+                                <img
+                                    src="./pics/cube/1.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                    
+                                />
+                                <p>Power Board - Top</p>
+                            </div>
+                            <div class="col-lg-3 mb-3 mb-lg-0">
+                                <img
+                                    src="./pics/cube/2.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                    
+                                />
+                                <p>Power Board - Bottom</p>
+                            </div>
+                            <div class="col-lg-3 mb-3 mb-lg-0">
+                                <img
+                                    src="./pics/cube/3.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>MCU Board - Top</p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/cube/4.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>MCU Board - Bottom</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/cube/5.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Sensor Board - Top</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/cube/6.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Sensor Board - Bottom</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <p>To find out more about my work feel free to contact me at <a href="mailto:contact@silardgal.com" class="link-light" style="text-decoration: none;">contact@silardgal.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal PUNCH-->
+        <div class="modal fade" id="modal_punch" tabindex="-1" aria-labelledby="modal_punch_label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_punch_label">Boxing Robot</h5>
+                        <button type="button" class="btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                        
+                            The boxing robot was an exciting project for a UK-based client, though the robot itself cannot be shown due to confidentiality. My role in the project was to design the hardware and software necessary to control the robot's 4 stepper motors.
+                            <br><br>
+                            The first board was mounted alongside an encoder and stepper driver onto the motor, serving as an interface to control each stepper. It utilized an ATMEGA328P microcontroller with connectors to the main board, encoder, and driver, and included PID control for precise positioning of the stepper motors. The main board sent commands to the first board on where the stepper motor should go, which was then used to calculate the rotation angle of the stepper motor with PID controlling.
+                            <br><br>
+                            The second board was the master board, utilizing an Arduino MEGA as a shield, which communicated with the motors and controlled various actuators and high-power LEDs. Additionally, it was equipped with accelerometers to measure punches thrown at the robot. It was also connected to a PC, which ran a control panel software designed to send specific boxing combinations to the robot.
+                            <br><br>
+                            The hardware was designed using KiCAD, and the software for the PC was written with Qt.
+                        
+                        </p>
+                        <div class="row text-center">
+                            <div class="col-lg-3 mb-3 mb-lg-0">
+                                <img
+                                    src="./pics/boxing/0.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                />
+                                <p>Accelerometer with industrial connector</p>
+                            </div>
+                            <div class="col-lg-3 mb-3 mb-lg-0">
+                                <img
+                                    src="./pics/boxing/1.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                />
+                                <p>CAD Stepper Controller</p>
+                            </div>
+                            <div class="col-lg-3 mb-3 mb-lg-0">
+                                <img
+                                    src="./pics/boxing/2.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                />
+                                <p>Bare PCBs Manufactured</p>
+                            </div>
+                            <div class="col-lg-3 mb-3 mb-lg-0">
+                                <img
+                                    src="./pics/boxing/3.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                />
+                                <p>Assembled Stepper Controller</p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/boxing/4.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                />
+                                <p>Main Controller Assembled</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/boxing/5.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                />
+                                <p>Stepper Motors</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/boxing/6.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                />
+                                <p>CAD Main Controller PCB</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>To find out more about my work feel free to contact me at <a href="mailto:contact@silardgal.com" class="link-light" style="text-decoration: none;">contact@silardgal.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal HEATING-->
+        <div class="modal fade" id="modal_heating" tabindex="-1" aria-labelledby="modal_heating_label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_heating_label">Heating Controller</h5>
+                        <button type="button" class="btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                        
+                            At SENSA, I worked on the development of the heating controller, a project aimed at controlling a patented heating element with specialized features. The primary focus of the project was to ensure its robustness and provide efficient control for the heating system.
+                            <br><br>
+                            The controller board was equipped with relays, external display with an encoder, multiple switch inputs, AC motor control using PWM, DC motor control, and weight scale reading capabilities.
+                            <br><br>
+                            To achieve the desired robustness, we developed several iterations of the board, testing with newer Atmel chips until we found the most effective solution.
+                            <br><br>
+                            The design process was done using KiCAD, a software tool for schematic capture and PCB layout.
+                        </p>
+                        <div class="row text-center">
+                                <img
+                                    src="./pics/heat/heat.png"
+                                    class="shadow-1-strong mb-4 img-fluid"
+                                    style="width: 30rem; margin: 0 auto;"
+                                />
+                                <p>Prototype version</p>
+                            
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>To find out more about my work feel free to contact me at <a href="mailto:contact@silardgal.com" class="link-light" style="text-decoration: none;">contact@silardgal.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal LED-->
+        <div class="modal fade" id="modal_led" tabindex="-1" aria-labelledby="modal_led_label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_led_label">LED Controller</h5>
+                        <button type="button" class="btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                        
+                            I worked on a lighting project for a Canadian client that needed a complete electronics solution. The project had to meet certification standards, include wireless connectivity, and control special LEDs.
+                            <br><br>
+                            The board easily passed the certification requirements. However, developing the firmware was quite challenging. It required a driver for LED animations and an MQTT-based protocol for control. An external team worked with us to develop the firmware and an application, but the project was eventually handed over to another team.
+                            <br><br>
+                            The board was designed using KiCAD.
+                        
+                        </p>
+                        <div class="row text-center">
+                            <div class="col-lg-6 mb-6 mb-lg-0">
+                                <img
+                                    src="./pics/led/0.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Case design</p>
+                            </div>
+                            <div class="col-lg-6 mb-6 mb-lg-0">
+                                <img
+                                    src="./pics/led/1.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Assembled board</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>To find out more about my work feel free to contact me at <a href="mailto:contact@silardgal.com" class="link-light" style="text-decoration: none;">contact@silardgal.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal PLC-->
+        <div class="modal fade" id="modal_plc" tabindex="-1" aria-labelledby="modal_plc_label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_plc_label">PLC</h5>
+                        <button type="button" class="btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                        
+                            The Fortis project was an innovative solution developed internally at SENSA to enter the PLC market with a cost-effective and compact design.
+                            <br><br>
+                            This board boasted 8 inputs and 8 outputs, utilizing CAN Bus as an extension network, along with Ethernet, USB, and Bluetooth connectivity options. Powered by an STM32F103C8T6 microcontroller, this board was compatible with standard DIN rail casings, making it easy to integrate into existing systems.
+                            <br><br>
+                            The design of the board was developed using KiCAD. 
+                        
+                        </p>
+                        <div class="row text-center">
+                            <div class="col-lg-6 mb-6 mb-lg-0">
+                                <img
+                                    src="./pics/plc/1.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Top Design</p>
+                            </div>
+                            <div class="col-lg-6 mb-6 mb-lg-0">
+                                <img
+                                    src="./pics/plc/0.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Bottom Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>To find out more about my work feel free to contact me at <a href="mailto:contact@silardgal.com" class="link-light" style="text-decoration: none;">contact@silardgal.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Power Supply-->
+        <div class="modal fade" id="modal_power" tabindex="-1" aria-labelledby="modal_power_label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_power_label">Power Supply</h5>
+                        <button type="button" class="btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                        
+                            I designed these two boards for a German client who needed design files for certain chips in the power supply category.
+                            <br><br>
+                            The first board featured an ideal diode at the input, with two separate regulators and an additional component used for measuring current and voltage.
+                            <br><br>
+                            The second board was designed around a 4-channel power supply chip.
+                            <br><br>
+                            Both boards were designed using KiCAD.
+                        
+                        </p>
+                        <div class="row text-center">
+                            <div class="col-lg-6 mb-6 mb-lg-0">
+                                <img
+                                    src="./pics/power/0.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Design #1</p>
+                            </div>
+                            <div class="col-lg-6 mb-6 mb-lg-0">
+                                <img
+                                    src="./pics/power/1.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Design #2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>To find out more about my work feel free to contact me at <a href="mailto:contact@silardgal.com" class="link-light" style="text-decoration: none;">contact@silardgal.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Robot-->
+        <div class="modal fade" id="modal_robot" tabindex="-1" aria-labelledby="modal_robot_label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_robot_label">Robotics - Eurobot</h5>
+                        <button type="button" class="btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Robotics has been a passion of mine since I started working with electronics and programming. I was fortunate enough to be a part of Elektropioneer, my robotics team, for six years: four as a member and two as a mentor. Our team's primary goal was to participate in the Eurobot competition, where we were the only high school team competing against colleges.
+                            <br><br>
+                            Throughout my time on the team, I was exposed to and worked on every aspect of the robot, including electronics, software, mechanical, and tactical. As I progressed, I became the leader for the electronics and firmware side of the robot. Our team primarily used Atmel and PIC-based MCUs that communicated with each other through CAN Bus.
+                            <br><br>
+                            We divided the robots into multiple parts, including the main board, actuator board, sensor board, and odometry board. The main board acted as the brains of the robot and issued commands to every module through CAN Bus. The actuator board housed relays, MOSFETs, stepper drivers, and DC motor drivers to control every actuator the robot had. The sensor board was optocoupler-based and converted our 12V sensor signals to the appropriate voltages. The odometry board was the most complex, as it had to read the encoders and determine the speed of the motors. It also housed all the software that made the robot move on the table, including PID control.
+                            <br><br>
+                            Every year, we rebuilt the electronics, software, and mechanical aspects of the robot to comply with the new competition rules.
+                            <br><br>
+                            Aside from the technical aspect of robotics, I also learned a lot about working in a team and managing a small group of people.
+                        
+                        </p>
+                        <div class="row text-center">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/robot/0.jpg"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Robot at the competition</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/robot/1.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>CAD Model of the Robot</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/robot/2.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>LiDAR Board</p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/robot/3.jpg"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Pictures for the sponsors</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/robot/4.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Robot from the front</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/robot/5.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Robot from the side</p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/robot/6.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Robot from the side</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/robot/7.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Main board</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/robot/8.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Optocoupler board</p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-lg-6 mb-6 mb-lg-0">
+                                <img
+                                    src="./pics/robot/9.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Main board - AT90CAN128</p>
+                            </div>
+                            <div class="col-lg-6 mb-6 mb-lg-0">
+                                <img
+                                    src="./pics/robot/10.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Actuator board</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>To find out more about my work feel free to contact me at <a href="mailto:contact@silardgal.com" class="link-light" style="text-decoration: none;">contact@silardgal.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Pierre-->
+        <div class="modal fade" id="modal_pierre" tabindex="-1" aria-labelledby="modal_pierre_label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_pierre_label">Pierre</h5>
+                        <button type="button" class="btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            At DotLab, my primary responsibility was to develop firmware code for a smart home controller. However, when the hardware required CE certification, I also assisted with the process.
+                            <br><br>
+                            The main board utilized an ESP32 and had 16 inputs, 16 outputs, and 8 digital pins, communicating via Ethernet. 
+                            Additionally, I designed a temperature probe board, a relay board, test bed for the main controller with automated hardware/software test and a special purpose 0-10V board for dimming lights.
+                            <br><br>
+                            I cannot share further details due to confidentiality.
+                            <br><br>
+                            Regarding the software, I worked on implementing new features and resolving any issues. The software was a challenging task as it needed to be minimalistic yet functional, while integrating with the backend and application. For this, I utilized ESP-IDF with C++ programming language.
+                                                    
+                        </p>
+                        <div class="row text-center">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/pierre/0.jpg"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>At the certification chamber</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/pierre/1.jpeg"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Pierre Smart Home Controller</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/pierre/2.jpg"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>At the certification chamber </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>To find out more about my work feel free to contact me at <a href="mailto:contact@silardgal.com" class="link-light" style="text-decoration: none;">contact@silardgal.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Parking-->
+        <div class="modal fade" id="modal_parking" tabindex="-1" aria-labelledby="modal_parking_label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_parking_label">Smart Parking</h5>
+                        <button type="button" class="btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Nanobile was a startup that I co-founded with a focus on smart parking. Our solution involved bollards and sensors, which communicated with servers using LoRa technology. The sensors utilized magnetometers and custom-tuned algorithms to detect cars and other objects.
+                            <br><br>
+                            The bollards were equipped with the same sensors as well as a mechanism that raised out of the ground to indicate when a parking spot was reserved.
+                            <br><br>
+                            As a main member of the team, I had the opportunity to attend conferences and meetings with investors, customers, and partners. My responsibilities included overseeing the hardware and mechanical aspects of the device.
+                            <br><br>
+                            Unfortunately, due to a lack of investment and problems with the business team, we were unable to bring the idea to production.                      
+                        </p>
+                        <div class="row text-center">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/parking/0.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>At the certification chamber</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/parking/1.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Pierre Smart Home Controller</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/parking/2.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>At the certification chamber </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>To find out more about my work feel free to contact me at <a href="mailto:contact@silardgal.com" class="link-light" style="text-decoration: none;">contact@silardgal.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Retail-->
+        <div class="modal fade" id="modal_retail" tabindex="-1" aria-labelledby="modal_retail_label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_retail_label">Retail Project</h5>
+                        <button type="button" class="btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            I worked on a prototype project for a major food supply chain involving a smart retail display. The goal was to enable wireless price updates for each article.
+                            <br><br>
+                            The product mainly consisted of the display itself, which used e-ink displays and two small batteries. Bluetooth was used for communication. The main challenge was to ensure that the device was low power.
+                            <br><br>
+                            In addition to the display, we also designed a shelf that could measure the weight of the products and alert workers when stock was running low. We used the same technology as the display, but with a high-precision weight sensor.
+                            <br><br>
+                            To design the board, we used KiCAD.
+                        </p>
+                        <div class="row text-center">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/retail/0.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>PCB</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/retail/1.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>PCB</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/retail/2.jpg"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Test fitting</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>To find out more about my work feel free to contact me at <a href="mailto:contact@silardgal.com" class="link-light" style="text-decoration: none;">contact@silardgal.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Retail-->
+        <div class="modal fade" id="modal_toilet" tabindex="-1" aria-labelledby="modal_toilet_label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_toilet_label">Water Controller Project</h5>
+                        <button type="button" class="btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            The water controller project was commissioned by an American client, who ultimately had 50,000 units manufactured. The device was designed to control a valve while consuming minimal power.
+                            <br><br>
+                            The board incorporated an ATTiny MCU and was powered by a 9V battery with custom connectors. To alert users when the battery was running low, the board also included voltage monitoring functionality.
+                            <br><br>
+                            The project went through three iterations, with the final version being the most cost-effective. This version replaced the original MCU with a 9-cent MCU, saving almost $1 per unit.
+                            <br><br>
+                            All board designs were created using KiCAD.
+                        </p>
+                        <div class="row text-center">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/toilet/0.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Assembled Board</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/toilet/1.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Manufactured PCB</p>
+                            </div>
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="./pics/toilet/2.png"
+                                    class="shadow-1-strong  mb-4 img-fluid"
+                                
+                                />
+                                <p>Assembled Boards</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>To find out more about my work feel free to contact me at <a href="mailto:contact@silardgal.com" class="link-light" style="text-decoration: none;">contact@silardgal.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Retail-->
+        <div class="modal fade" id="modal_misc" tabindex="-1" aria-labelledby="modal_misc_label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_misc_label">Miscellaneous Projects</h5>
+                        <button type="button" class="btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            1. Website Design - Prior to my foray into electronics, I gained valuable experience in web technologies. Initially, I delved into HTML5 and CSS, then progressed to learning PHP and Javascript. The skills I acquired during this time continue to be beneficial, as I constructed this website from scratch using only raw HTML code and Bootstrap, without the use of any CMS.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <p>To find out more about my work feel free to contact me at <a href="mailto:contact@silardgal.com" class="link-light" style="text-decoration: none;">contact@silardgal.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- this links the bootstrap script to the html-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>            
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+        <script type="text/javascript">   
+            var experienceCalculation = document.getElementById('experienceCalculation');
+            var experienceCalculation1 = document.getElementById('experienceCalculation1');
+            var yearCalculation = document.getElementById('yearCalculated');
+
+            var yearCalculated = new Date().getFullYear() - 2016;
+
+            var yearOld = new Date().getFullYear() - 1999;
+
+            experienceCalculation.innerText = " with "+ yearCalculated + " years of experience in the field";
+            
+            experienceCalculation1.innerHTML = "I'm an <b>Embedded System Engineer</b> based in Serbia with " + yearCalculated + " years of experience in the field. I have had the opportunity to work in both large and small companies where I have contributed to the development of various hardware products.";
+                
+            yearCalculation.innerText = "an embedded systems engineer, "+ yearOld + " years old,"
+        </script> 
+    </body>
+</html>
