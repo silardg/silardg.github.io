@@ -1124,19 +1124,27 @@
         <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
         <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
         <script type="text/javascript">   
+
             var experienceCalculation = document.getElementById('experienceCalculation');
             var experienceCalculation1 = document.getElementById('experienceCalculation1');
             var yearCalculation = document.getElementById('yearCalculated');
 
             var yearCalculated = new Date().getFullYear() - 2017;
 
-            var yearOld = new Date().getFullYear() - 1999;
+            var today = new Date();
+            var birthDate = new Date('August 14, 1999 16:00:00');
+            var yearOld = today.getFullYear() - birthDate.getFullYear();
+            var m = today.getMonth() - birthDate.getMonth();
+            if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+                yearOld--;
+            }
 
             experienceCalculation.innerText = " with "+ yearCalculated + " years of experience in the field";
             
             experienceCalculation1.innerHTML = "I'm an <b>Embedded System Engineer</b> based in Serbia with " + yearCalculated + " years of experience in the field. I have had the opportunity to work in both large and small companies where I have contributed to the development of various hardware products.";
                 
             yearCalculation.innerText = "an embedded systems engineer, "+ yearOld + " years old,"
+            
         </script> 
     </body>
 </html>
