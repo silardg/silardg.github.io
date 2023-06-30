@@ -55,7 +55,7 @@
             "module.png", "module.webp"
         ],
         "medium": "",
-        "git": "https://github.com/silardg/ESP_MODULE/"
+        "git": ""
     },
     "cube" : {
         "title": "Project Cube",
