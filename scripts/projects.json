@@ -193,7 +193,7 @@
         "title": "Qt Examples and Weather Station",
         "description": [
             "<h3>Overview</h3>",
-            "I have been doing testing and learning Qt's functionality. Starter, Layout and addressBook are projects that I did to test the functionality, thus trying out examples<br><br>",
+            "I have been doing testing and learning Qt's functionality. Starter, Layout and addressBook are projects that I did to test the functionality, thus trying out examples.<br><br>",
             "<h3>Temperature part</h3>",
             "The temperature project focuses on combining Qt and an MCU with a sensor. I'm using Qt as a dashboard platform to show the sensor read values. The MCU used is an ESP32 with an AM2302 temperature/humidity sensor.<br><br>"
         ],
