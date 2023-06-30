@@ -1,0 +1,13 @@
+<div class="col-lg-%%width%% mb-12 mb-lg-0" style="text-align: center">
+    <a href="%%highres_path%%" target="_blank">
+        <picture>
+            <source srcset="%%webp_path%%" type="image/webp">
+            <img
+                src="%%png_path%%"
+                class="shadow-1-strong  mb-4 img-fluid"
+                loading="lazy"
+            />
+        </picture>
+    </a>
+    <p class="text-center">%%Description%%</p>
+</div>
