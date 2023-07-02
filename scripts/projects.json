@@ -35,7 +35,7 @@
         "thumbnail": [
             "crypto.png", "crypto.webp"
         ],
-        "medium": "",
+        "medium": "https://medium.com/@silardg/from-concept-to-mvp-in-just-2-weeks-the-success-story-of-project-crypto-ccacb18f3e4a",
         "git": ""
     },
     "module" : {
@@ -54,7 +54,7 @@
         "thumbnail": [
             "module.png", "module.webp"
         ],
-        "medium": "",
+        "medium": "https://medium.com/@silardg/an-esp-module-on-steroids-9e405c656071",
         "git": ""
     },
     "cube" : {
