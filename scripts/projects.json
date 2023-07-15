@@ -1,5 +1,5 @@
 {
-    "powerModule": {
+    "powermodule": {
         "title": "Power Module - 4 Channel",
         "description": [
             "<h3>Overview</h3>",
@@ -8,21 +8,21 @@
             "To connect to other boards and provide power, it uses a low profile connector, 2074190081. The power can be also supplied using a bigger connector mounted on the top.<br><br>"
         ],
         "pictures" : [
-            ["../pics/powerModule/PowerModuleTop.png", "../pics/powerModule/PowerModuleTop.png", "../pics/powerModule/PowerModuleTop.webp", "Top PCB"],
-            ["../pics/powerModule/PowerModuleBottom.png", "../pics/powerModule/PowerModuleBottom.png", "../pics/powerModule/PowerModuleBottom.webp", "Bottom PCB"],
-            ["../pics/powerModule/blockdiagram.drawio.png", "../pics/powerModule/blockdiagram.drawio.png", "../pics/powerModule/blockdiagram.drawio.webp", "Block Diagram"],
-            ["../pics/powerModule/1.png", "../pics/powerModule/1.png", "../pics/powerModule/1.webp", "Top Layer"],
-            ["../pics/powerModule/2.png", "../pics/powerModule/2.png", "../pics/powerModule/2.webp", "GND Layer"],
-            ["../pics/powerModule/3.png", "../pics/powerModule/3.png", "../pics/powerModule/3.webp", "Power Layer"],
-            ["../pics/powerModule/4.png", "../pics/powerModule/4.png", "../pics/powerModule/4.webp", "Bottom Layer"],
-            ["../pics/powerModule/006.png", "../pics/powerModule/006.png", "../pics/powerModule/006.webp", "Power Simulation"],
-            ["../pics/powerModule/007.png", "../pics/powerModule/007.png", "../pics/powerModule/007.webp", "Power Simulation"]
+            ["../pics/powermodule/powermoduleTop.png", "../pics/powermodule/powermoduleTop.png", "../pics/powermodule/powermoduleTop.webp", "Top PCB"],
+            ["../pics/powermodule/powermoduleBottom.png", "../pics/powermodule/powermoduleBottom.png", "../pics/powermodule/powermoduleBottom.webp", "Bottom PCB"],
+            ["../pics/powermodule/blockdiagram.drawio.png", "../pics/powermodule/blockdiagram.drawio.png", "../pics/powermodule/blockdiagram.drawio.webp", "Block Diagram"],
+            ["../pics/powermodule/1.png", "../pics/powermodule/1.png", "../pics/powermodule/1.webp", "Top Layer"],
+            ["../pics/powermodule/2.png", "../pics/powermodule/2.png", "../pics/powermodule/2.webp", "GND Layer"],
+            ["../pics/powermodule/3.png", "../pics/powermodule/3.png", "../pics/powermodule/3.webp", "Power Layer"],
+            ["../pics/powermodule/4.png", "../pics/powermodule/4.png", "../pics/powermodule/4.webp", "Bottom Layer"],
+            ["../pics/powermodule/006.png", "../pics/powermodule/006.png", "../pics/powermodule/006.webp", "Power Simulation"],
+            ["../pics/powermodule/007.png", "../pics/powermodule/007.png", "../pics/powermodule/007.webp", "Power Simulation"]
         ],
         "thumbnail": [
-            "PowerModuleTop.png", "PowerModuleTop.webp"
+            "powermoduleTop.png", "powermoduleTop.webp"
         ],
         "medium": "",
-        "git": "https://github.com/silardg/PowerModule"
+        "git": "https://github.com/silardg/powermodule"
     },
     "hub" : {
         "title": "Project Hub",
