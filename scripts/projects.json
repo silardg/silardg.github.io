@@ -1,4 +1,29 @@
 {
+    "powerModule": {
+        "title": "Power Module - 4 Channel",
+        "description": [
+            "<h3>Overview</h3>",
+            "The Power Module consists of 4 channels, all with 6A maximum current output at different voltages: 1V8, 2V5; 3V3; 5V; To achieve this it uses the TPS62180.<br><br>",
+            "The module is protected with the TPS25970, that has overcurrent, overvoltage and undervoltage features. <br><br>",
+            "To connect to other boards and provide power, it uses a low profile connector, 2074190081. The power can be also supplied using a bigger connector mounted on the top.<br><br>"
+        ],
+        "pictures" : [
+            ["../pics/powerModule/PowerModuleTop.png", "../pics/powerModule/PowerModuleTop.png", "../pics/powerModule/PowerModuleTop.webp", "Top PCB"],
+            ["../pics/powerModule/PowerModuleBottom.png", "../pics/powerModule/PowerModuleBottom.png", "../pics/powerModule/PowerModuleBottom.webp", "Bottom PCB"],
+            ["../pics/powerModule/blockdiagram.drawio.png", "../pics/powerModule/blockdiagram.drawio.png", "../pics/powerModule/blockdiagram.drawio.webp", "Block Diagram"],
+            ["../pics/powerModule/1.png", "../pics/powerModule/1.png", "../pics/powerModule/1.webp", "Top Layer"],
+            ["../pics/powerModule/2.png", "../pics/powerModule/2.png", "../pics/powerModule/2.webp", "GND Layer"],
+            ["../pics/powerModule/3.png", "../pics/powerModule/3.png", "../pics/powerModule/3.webp", "Power Layer"],
+            ["../pics/powerModule/4.png", "../pics/powerModule/4.png", "../pics/powerModule/4.webp", "Bottom Layer"],
+            ["../pics/powerModule/006.png", "../pics/powerModule/006.png", "../pics/powerModule/006.webp", "Power Simulation"],
+            ["../pics/powerModule/007.png", "../pics/powerModule/007.png", "../pics/powerModule/007.webp", "Power Simulation"]
+        ],
+        "thumbnail": [
+            "PowerModuleTop.png", "PowerModuleTop.webp"
+        ],
+        "medium": "",
+        "git": "https://github.com/silardg/PowerModule"
+    },
     "hub" : {
         "title": "Project Hub",
         "description": [
