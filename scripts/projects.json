@@ -19,7 +19,7 @@
             ["../pics/powermodule/007.png", "../pics/powermodule/007.png", "../pics/powermodule/007.webp", "Power Simulation"]
         ],
         "thumbnail": [
-            "powermoduleTop.png", "powermoduleTop.webp"
+            "PowerModuleTop.png", "PowerModuleTop.webp"
         ],
         "medium": "",
         "git": "https://github.com/silardg/powermodule"
