@@ -8,8 +8,8 @@
             "To connect to other boards and provide power, it uses a low profile connector, 2074190081. The power can be also supplied using a bigger connector mounted on the top.<br><br>"
         ],
         "pictures" : [
-            ["../pics/powermodule/powermoduletop.png", "../pics/powermodule/powermoduletop.png", "../pics/powermodule/powermoduletop.webp", "Top PCB"],
-            ["../pics/powermodule/powermodulebottom.png", "../pics/powermodule/powermodulebottom.png", "../pics/powermodule/powermodulebottom.webp", "Bottom PCB"],
+            ["../pics/powermodule/PowerModuleTop.png", "../pics/powermodule/PowerModuleTop.png", "../pics/powermodule/PowerModuleTop.webp", "Top PCB"],
+            ["../pics/powermodule/PowerModuleBottom.png", "../pics/powermodule/PowerModuleBottom.png", "../pics/powermodule/PowerModuleBottom.webp", "Bottom PCB"],
             ["../pics/powermodule/blockdiagram.png", "../pics/powermodule/blockdiagram.png", "../pics/powermodule/blockdiagram.webp", "Block Diagram"],
             ["../pics/powermodule/1.png", "../pics/powermodule/1.png", "../pics/powermodule/1.webp", "Top Layer"],
             ["../pics/powermodule/2.png", "../pics/powermodule/2.png", "../pics/powermodule/2.webp", "GND Layer"],
