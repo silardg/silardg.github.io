@@ -11,7 +11,15 @@
         ],
         "pictures" : [
             ["../pics/som/top.png", "../pics/som/top.png", "../pics/som/top.webp", "Top PCB"],
-            ["../pics/som/bottom.png", "../pics/som/bottom.png", "../pics/som/bottom.webp", "Bottom PCB"]
+            ["../pics/som/bottom.png", "../pics/som/bottom.png", "../pics/som/bottom.webp", "Bottom PCB"],
+            ["../pics/som/1stLayer.png", "../pics/som/1stLayer.png", "../pics/som/1stLayer.webp", "First Layer"],
+            ["../pics/som/2ndLayer.png", "../pics/som/2ndLayer.png", "../pics/som/2ndLayer.webp", "Second Layer"],
+            ["../pics/som/3rdLayer.png", "../pics/som/3rdLayer.png", "../pics/som/3rdLayer.webp", "Third Layer"],
+            ["../pics/som/4thLayer.png", "../pics/som/4thLayer.png", "../pics/som/4thLayer.webp", "Fourth Layer"],
+            ["../pics/som/5thLayer.png", "../pics/som/5thLayer.png", "../pics/som/5thLayer.webp", "Fifth Layer"],
+            ["../pics/som/6thLayer.png", "../pics/som/6thLayer.png", "../pics/som/6thLayer.webp", "Sixth Layer"],
+            ["../pics/som/7thLayer.png", "../pics/som/7thLayer.png", "../pics/som/7thLayer.webp", "Seventh Layer"],
+            ["../pics/som/8thLayer.png", "../pics/som/8thLayer.png", "../pics/som/8thLayer.webp", "Eight Layer"]
         ],
         "thumbnail": [
             "som.png", "som.webp"
