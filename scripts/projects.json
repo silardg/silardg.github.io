@@ -1,4 +1,24 @@
 {
+    "somstm32f4" : {
+        "title": "SoM STM32F4",
+        "description": [
+            "<h3>Overview</h3>",
+            "This System-on-Module provides a powerful platform with an STM32F429 extended by an SDRAM, eMMC and external peripherals like Ethernet and CAN Bus. The SoM plugs into a motherboard through its low-profile connectors.<br><br>",
+            "The size of the board is 60mm x 45mm with an 8 layer stackup.<br><br>",
+            "<h4>Components</h4>",
+            "<b>MCU</b> - STM32F429ZET6TR<br><b>SDRAM</b> - AS4C8M16SA-6BINTR<br><b>eMMC</b> - IS21TF08G-JQLI<br><b>Secure Element</b> - ATECC608A-MAHDA-S<br><b>Ethernet</b> - LAN8720A-CP-ABC<br><b>CAN Bus</b> - LTC2875HDD#TRPBF",
+            "<br><br>"
+        ],
+        "pictures" : [
+            ["../pics/som/top.png", "../pics/som/top.png", "../pics/som/top.webp", "Top PCB"],
+            ["../pics/som/bottom.png", "../pics/som/bottom.png", "../pics/som/bottom.webp", "Bottom PCB"]
+        ],
+        "thumbnail": [
+            "som.png", "som.webp"
+        ],
+        "medium": "",
+        "git": "https://github.com/silardg/SoM-STM32F4"
+    },
     "powermodule" : {
         "title": "Power Module",
         "description": [
