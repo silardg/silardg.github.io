@@ -41,8 +41,63 @@
         <meta name="twitter:title" content="Silard Gal - Embedded System Engineer" />
         <meta name="twitter:description" content="I'm an Embedded System Engineer based in Serbia. I have had the opportunity to work in both large and small companies where I have contributed to the development of various hardware products." />
         <meta name="twitter:image" content="https://silardgal.com/pics/og_background_main.png" />
-        
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
         <meta http-equiv="Cache-control" content="public">
+
+        <style type="text/css">
+            body { 
+                margin:40px auto;
+                max-width:850px;
+                line-height:1.6;
+                font-size:10px;
+                color:#dfdfdf;
+                padding:0 10px;
+                background-color: black;
+                font-family: "Roboto Mono", monospace;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+            }
+            
+            h1,h2,h3 {
+                line-height:1.2
+            }
+
+            a { color: inherit; } 
+
+            .card {
+                background-color: black;
+                height: 100%;
+                /* border: solid 3px white; */
+            }
+
+
+             /* Ensures images cover the card width and are the same height */
+            .card-img-top {
+                height: 350px;          /* Fixed height for all images */
+                object-fit: cover;      /* Keeps aspect ratio while covering */
+                padding: 8px;
+            }   
+
+            .card-body {
+                color: black;
+            }
+
+            .card {
+                background-color: white !important;
+            }
+
+
+            /* .card-img-top:hover {
+                transform: scale(1.05);
+                transition: transform 0.5s ease;
+            } */
+
+            
+        </style>
 
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q02HQ1RKDS"></script>
@@ -53,378 +108,276 @@
 
             gtag('config', 'G-Q02HQ1RKDS');
         </script>
-        
-        <!-- CSS File -->
-        <style>
-            body{
-                font-family: 'Golos Text', sans-serif;
-                color: black;
-                background-image: linear-gradient(to bottom right, #2ecc71, #3498db);
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-
-            img:hover{
-                -webkit-transform: scale(1.1);
-                -ms-transform: scale(1.1);
-                transform: scale(1.1);
-                transition: 1s ease;
-            }
-        </style>
     </head>
     <body>
-        <!-- get the feeling as a card -->
-        <div class="container-fluid" style="width: 90%; margin-top: 3rem;">
-            <nav class="navbar">
-                <div class="container-fluid" style=" border-style: solid; border-width: .2rem; border-top: 0; border-left: 0; border-right: 0;">
-                    <span class="navbar-text text-dark" style="font-size: large;">
-                        Silard Gal
-                    </span>
-                    <span class="navbar-text text-dark" style="font-size: large;">
-                        <a href="mailto:contact@silardgal.com" class="link-dark" style="text-decoration: none;">contact@silardgal.com</a>
-                    </span>
-                </div>
-            </nav>
-            <!-- main hi page-->
-            <div class="container-fluid">
-                <br>
-                <h1 class="display-1">hello 👋</h1>
-                <h3>
-                    my name is Silard,<br>
-                    <h3 id="yearCalculated"></h3> 
-                    <h3 id="experienceCalculation"></h3><h3><br>
+        <!-- Header with Name and Title -->
+        <header class="text-center my-4">
+            <h1 style="font-size: 50px; " ><i>Silard </i>Gal</h1>
+        </header>
 
-                    connect with me on&nbsp;
-                    <a href="https://www.linkedin.com/in/silard-gal/" target="_blank" class="link-dark"><i class="bi bi-linkedin"></i></a> &nbsp;
-                    <a href="https://twitter.com/silardgal" target="_blank" class="link-dark"><i class="bi bi-twitter"></i></a> &nbsp;
-                    <a href="https://t.me/silardgal" target="_blank" class="link-dark"><i class="bi bi-telegram"></i></a> &nbsp;
-                    <a href="https://wa.me/+381638864022" target="_blank" class="link-dark"><i class="bi bi-whatsapp"></i></a> &nbsp;
-                    <a href="mailto:contact@silardgal.com" target="_blank" class="link-dark"><i class="bi bi-envelope-fill"></i></a> 
-                    <br><br>
+        <!-- Subtitle -->
+        <!-- <aside class="text-center mb-3">
+            <h5 class="text-muted">Embedded System Engineer</h5>
+        </aside> -->
 
-                </h3>
+        <hr>
+
+        <!-- Experience Summary -->
+        <header class="text-center">
+            <h5 class="mb-1" id="yearsExperience">7+ years of Professional Experience</h5>
+            <h5 class="text-muted">Embedded System Design - Hardware | Firmware</h5>
+        </header>
+
+        <hr>
+
+        <!-- Contact Links (Flexbox for even spacing) -->
+        <div class="container text-center" style="background-color: white; color: black;"   >
+            <div class="d-flex justify-content-between flex-wrap gap-3 mx-auto" style="max-width: 600px; font-size: 1.25rem;">
+                <a href="mailto:contact@silardgal.com" target="_blank" class="text-decoration-none">Email</a>
+                <a href="https://www.linkedin.com/in/silard-gal/" target="_blank" class="text-decoration-none">LinkedIn</a>
+                <a href="https://x.com/silardgal" target="_blank" class="text-decoration-none">X</a>
+                <a href="https://www.github.com/silardg" target="_blank" class="text-decoration-none">Git</a>
+                <a href="https://t.me/silardgal" target="_blank" class="text-decoration-none">Telegram</a>
+                <a href="https://wa.me/+381638864022" target="_blank" class="text-decoration-none">WhatsApp</a>
+                <a href="https://medium.com/@silardg" target="_blank" class="text-decoration-none">Medium</a>
             </div>
-            <!-- about me -->
-            <div class="container-fluid">
-                <div class="container-fluid" style="border-style: solid; border-width: .2rem; border-left: 0; border-right: 0;">
-                    <h5>about me</h5>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-12 mb-12 mb-lg-0 ">
-                        <p class="text-lg ">
-                            <p id="experienceCalculation1"></p>
-                            In addition to my professional experience, I have been doing freelance work for over 5 years with clients from all over the world. I am proud to have worked on 15+ projects, which have given me the opportunity to hone my skills in firmware and hardware development.
-                            <br><br>
-                            My passion lies in creating innovative hardware products, and I am committed to bringing my clients' ideas to the final manufactured form. If you are looking for a skilled and experienced embedded system engineer, I am here to help you bring your project to life. Please feel free to explore my website to learn more about my work and experience.
-                            <!--<br><br>
-                            To get a better grasp of my experience, feel free to view my CV below.-->
-                        </p>
-                        <!--<div class="text-center">
-                            <a href="docs/Silard_Gal_CV.pdf" target="_blank">
-                                <button type="button" class="btn btn-dark">
-                                    &nbsp;&nbsp;
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
-                                        <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                                        <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"/>
-                                    </svg>
-                                    View my CV
-                                    &nbsp;&nbsp;
-                                </button>
-                            </a>
-                        </div>-->
-                    </div>
-                </div>
-                <br>
-            </div>
-            <!-- portfolio -->
-            <div class="container-fluid">
-                <div class="container-fluid" style="border-style: solid; border-width: .2rem; border-left: 0; border-right: 0;">
-                    <h5>portfolio</h5>
-                </div>
-                <br>
-                <p>*All projects details are accessed by clicking on them!</p>
-                <div class="row">
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/somstm32f4.html" target="_blank">
-        <picture>
-            <source srcset="./pics/som.webp" type="image/webp">
-            <img
-                src="./pics/som.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="SoM STM32F4"
-            />
-        </picture>
-    </a>
-</div>
-
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/powermodule.html" target="_blank">
-        <picture>
-            <source srcset="./pics/PowerModuleTop.webp" type="image/webp">
-            <img
-                src="./pics/PowerModuleTop.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="Power Module"
-            />
-        </picture>
-    </a>
-</div>
-
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/hub.html" target="_blank">
-        <picture>
-            <source srcset="./pics/hub.webp" type="image/webp">
-            <img
-                src="./pics/hub.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="Project Hub"
-            />
-        </picture>
-    </a>
-</div>
-</div><div class="row">
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/crypto.html" target="_blank">
-        <picture>
-            <source srcset="./pics/crypto.webp" type="image/webp">
-            <img
-                src="./pics/crypto.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="Project Crypto"
-            />
-        </picture>
-    </a>
-</div>
-
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/module.html" target="_blank">
-        <picture>
-            <source srcset="./pics/module.webp" type="image/webp">
-            <img
-                src="./pics/module.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="ESP Module"
-            />
-        </picture>
-    </a>
-</div>
-
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/cube.html" target="_blank">
-        <picture>
-            <source srcset="./pics/cube.webp" type="image/webp">
-            <img
-                src="./pics/cube.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="Project Cube"
-            />
-        </picture>
-    </a>
-</div>
-</div><div class="row">
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/robots.html" target="_blank">
-        <picture>
-            <source srcset="./pics/robot2.webp" type="image/webp">
-            <img
-                src="./pics/robot2.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="Robotics - Elektropioneer"
-            />
-        </picture>
-    </a>
-</div>
-
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/plc.html" target="_blank">
-        <picture>
-            <source srcset="./pics/plc.webp" type="image/webp">
-            <img
-                src="./pics/plc.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="PLC - Fortis"
-            />
-        </picture>
-    </a>
-</div>
-
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/heater.html" target="_blank">
-        <picture>
-            <source srcset="./pics/heat.webp" type="image/webp">
-            <img
-                src="./pics/heat.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="Heating Controller"
-            />
-        </picture>
-    </a>
-</div>
-</div><div class="row">
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/led.html" target="_blank">
-        <picture>
-            <source srcset="./pics/led.webp" type="image/webp">
-            <img
-                src="./pics/led.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="LED Controller"
-            />
-        </picture>
-    </a>
-</div>
-
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/watercontroller.html" target="_blank">
-        <picture>
-            <source srcset="./pics/toilet.webp" type="image/webp">
-            <img
-                src="./pics/toilet.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="Water Controller"
-            />
-        </picture>
-    </a>
-</div>
-
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/qt.html" target="_blank">
-        <picture>
-            <source srcset="./pics/qt.webp" type="image/webp">
-            <img
-                src="./pics/qt.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="Qt Examples and Weather Station"
-            />
-        </picture>
-    </a>
-</div>
-</div><div class="row">
-<div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <a href="projects/misc.html" target="_blank">
-        <picture>
-            <source srcset="./pics/misc.webp" type="image/webp">
-            <img
-                src="./pics/misc.png"
-                class="shadow-1-strong  mb-4 img-fluid"
-                alt="Miscellaneous Projects"
-            />
-        </picture>
-    </a>
-</div>
-
-            </div>
-            <!-- my skills -->
-            <div class="container-fluid">
-                <div class="container-fluid" style="border-style: solid; border-width: .2rem; border-left: 0; border-right: 0;">
-                    <h5>skills and tools</h5>
-                </div>
-                <br>
-                <div class="row">
-                    <h5>
-                        <b style="font-size: 1.33rem;">High Speed Design</b> -
-                        Power Design -
-                        Antenna Design -
-                        <b style="font-size: 2rem;">Digital Design</b> -
-                        <b style="font-size: 1.33rem;">Product Design</b> -
-                        <b style="font-size: 2rem;">Product Development</b> -
-                        Manufacturing Optimization -
-                        BOM Optimization -
-                        <b style="font-size: 2rem;">C/C++</b> -
-                        <b style="font-size: 1.33rem;">Python</b> -
-                        HTML5 -
-                        CSS -
-                        JavaScript -
-                        <b style="font-size: 1.33rem;">Soldering Iron</b> -
-                        <b style="font-size: 1.33rem;">Hot Air Gun</b> -
-                        Reflow Oven -
-                        <b style="font-size: 2rem;">VSCode</b> -
-                        Atmel Studio -
-                        MPLAB® X IDE -
-                        <b style="font-size: 1.33rem;">KiCAD</b> -
-                        <b style="font-size: 2rem;">Altium Designer</b> -
-                        LTSpice -
-                        Git -
-                        SVN -
-                        Data Analysis -
-                        <b style="font-size: 1.33rem;">Strategic Planning</b> -
-                        <b style="font-size: 1.33rem;">Time Management</b> -
-                        Linux -
-                        CI/CD -
-                        <b style="font-size: 1.33rem;">Hardware Automated Testing</b>
-                    </h5>
-                </div>
-                <br>
-            </div>
-            <!-- connect with me -->
-            <div class="container-fluid">
-                <div class="container-fluid" style="border-style: solid; border-width: .2rem; border-left: 0; border-right: 0;">
-                    <h5>social media presence</h5>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-12 mb-12 mb-lg-0 text-left">
-                        <h2 class="display-4">Reach me</h2>
-                        <p>
-                            Thank you for considering contacting me!
-                            <br><br>
-                            I value your feedback and appreciate your interest in my work. I will do my best to respond to your message as soon as possible. Let's stay in touch!
-                        </p>
-                        <div class="d-grid gap-1 d-md-block">
-                            <a href="https://www.linkedin.com/in/silard-gal/" style="text-decoration: none;" target="_blank">
-                                <button class="btn btn-dark">
-                                    <i class="bi bi-linkedin"></i>
-                                    &nbsp;
-                                    LinkedIn
-                                </button>
-                            </a>
-                            &nbsp;&nbsp;&nbsp;
-                            <a href="https://twitter.com/silardgal" style="text-decoration: none;" target="_blank">
-                                <button class="btn btn-dark">
-                                    <i class="bi bi-twitter"></i>
-                                    &nbsp;
-                                    Twitter
-                                </button>
-                            </a>
-                            &nbsp;&nbsp;&nbsp;
-                            <a href="https://github.com/silardg" style="text-decoration: none;" target="_blank">
-                                <button class="btn btn-dark">
-                                    <i class="bi bi-github"></i>
-                                    &nbsp;
-                                    GitHub
-                                </button>
-                            </a>
-                            &nbsp;&nbsp;&nbsp;
-                            <a href="mailto:contact@silardgal.com" style="text-decoration: none;">
-                                <button class="btn btn-dark">
-                                    <i class="bi bi-envelope"></i>
-                                    &nbsp;
-                                    Email
-                                </button>
-                            </a>
-                            &nbsp;&nbsp;&nbsp;
-                            <a href="https://t.me/silardgal" style="text-decoration: none;" target="_blank">
-                                <button class="btn btn-dark">
-                                    <i class="bi bi-telegram"></i>
-                                    &nbsp;
-                                    Telegram
-                                </button>
-                            </a>
-                            &nbsp;&nbsp;&nbsp;
-                            <a href="https://wa.me/+381638864022" style="text-decoration: none;" target="_blank">
-                                <button class="btn btn-dark">
-                                    <i class="bi bi-whatsapp"></i>
-                                    &nbsp;
-                                    WhatsApp
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br><br>
         </div>
+
+        <hr>
+
+
+
+        <div class="text-center">
+            <h2 class="mb-1 text-center">Portfolio</h2>
+            <h6 class="text-muted">30+ Projects Delivered - 50+ PCBs Manufactured</h6>
+            <hr>
+        </div>
+
+        <div class="container my-2">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 justify-content-between ">
+                
+                <div class="col">
+                    <a href="https://medium.com/@silardg/over-a-four-week-development-cycle-i-designed-a-compact-yet-powerful-system-on-module-som-based-494d009f2d71" target="_blank">
+                        <div class="card h-100 text-center rounded-0" style="background-color: white;" >
+                            <img src="./media/som.webp" class="card-img-top" alt="Image 1" >
+                            <div class="card-body">
+                                <h5 class="card-title">SoM STM32</h5>
+                                <p style="font-size: small;">Hardware + Firmware</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://medium.com/@silardg/from-concept-to-mvp-in-just-2-weeks-the-success-story-of-project-crypto-ccacb18f3e4a" target="_blank" >
+                        <div class="card h-100 text-center rounded-0"  style="background-color: white;" >
+                            <img src="./media/crypto.webp" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Crypto Dev Kit</h5>
+                                <p style="font-size: small;">Hardware + Firmware</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://medium.com/@silardg/an-esp-module-on-steroids-9e405c656071" target="_blank" >
+                        <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
+                            <img src="./media/module.webp" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">IO Expanded ESP32 Module</h5>
+                                <p style="font-size: small;">Hardware + Firmware</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://medium.com/@silardg/enhancing-power-efficiency-and-flexibility-with-the-power-module-ebd0bb1b690f" target="_blank" >
+                        <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
+                            <img src="./media/power.webp" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Multi-channel Power Module</h5>
+                                <p style="font-size: small;">Hardware</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://medium.com/@silardg/meet-the-cube-project-a-tiny-three-layered-iot-marvel-5befad8aba16" target="_blank" >
+                        <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
+                            <img src="./media/cube.webp" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Cube Design</h5>
+                                <p style="font-size: small;">Hardware + Firmware</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://medium.com/@silardg/building-a-custom-automotive-oriented-usb-hub-3a6814bcdaea2" target="_blank" >
+                        <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
+                            <img src="./media/hub.webp" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Automotive Hub</h5>
+                                <p style="font-size: small;">Hardware</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4" style="display: none;" id="morePortfolio">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 justify-content-between ">
+                
+                <div class="col">
+                    <a href="#" target="_blank" >
+                        <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
+                            <img src="./media/water.webp" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Water Controller</h5>
+                                <p style="font-size: small;">Hardware + Firmware</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#" target="_blank" >
+                        <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
+                            <img src="./media/plc.webp" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Custom PLC</h5>
+                                <p style="font-size: small;">Hardware + Firmware</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#" target="_blank" >
+                        <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
+                            <img src="./media/leds.webp" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">House mounted Light Controller</h5>
+                                <p style="font-size: small;">Hardware + Firmware</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://medium.com/@silardg/my-experience-with-eurobot-how-it-got-me-into-electronics-part-1-5b5e1cf7e925" target="_blank" >
+                        <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
+                            <img src="./media/robotics.webp" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Robotics - Eurobot</h5>
+                                <p style="font-size: small;">Hardware + Firmware + Software</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#" target="_blank" >
+                        <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
+                            <img src="./media/parkingsensor.webp" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Parking Sensor</h5>
+                                <p style="font-size: small;">Hardware + Firmware + Software</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#" target="_blank" >
+                        <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
+                            <img src="./media/boxing.webp" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Boxing Robot - Controllers</h5>
+                                <p style="font-size: small;">Hardware + Firmware + Software</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!--<div class="col">
+                    <a href="#" target="_blank" >
+                        <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
+                            <img src="./media/display.webp" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">E-Ink Retail Display</h5>
+                                <p style="font-size: small;">Hardware + Firmware + Backend</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>-->
+
+            </div>
+        </div>
+        <br>
+        <div class="text-center">
+            <button type="button" id="showMoreBtn" class="btn btn-light mb-1 mx-auto">View more projects</button>                
+        </div>
+        <br>
+
+        <hr>
+        <div class="text-center">
+            <h2 class="mb-1">Newest Articles</h2>
+            <hr>
+        </div>
+
+        <div class="card text-left">
+            <a href="#" target="_blank">
+                <div class="card-body p-2" style="background-color: white; color: black;">
+                    <h6 class="card-title">My Experience with Eurobot: How It Got Me into Electronics (Part 1)</h6>
+                    <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                </div>
+            </a>
+        </div>
+
+        <div class="card text-left mt-2">
+            <a href="#" target="_blank">
+                <div class="card-body p-2" style="background-color: white; color: black;">
+                    <h6 class="card-title">Meet the CUBE Project: A Tiny, Three-Layered IoT Marvel</h6>
+                    <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                </div>
+            </a>
+        </div>
+
+        <div class="card text-left mt-2">
+            <a href="#" target="_blank">
+                <div class="card-body p-2" style="background-color: white; color: black;">
+                    <h6 class="card-title">Building a Custom Automotive-Oriented USB Hub</h6>
+                    <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                </div>
+            </a>
+        </div>
+
+        <div class="card text-left mt-2">
+            <a href="#" target="_blank">
+                <div class="card-body p-2" style="background-color: white; color: black;">
+                    <h6 class="card-title">Building a High-Performance System-on-Module with STM32F429 in Just 4 Weeks</h6>
+                    <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                </div>
+            </a>
+        </div>
+
+        <br>
+        <div class="text-center">
+            <a href="https://medium.com/@silardg" target="_blank"><button type="button" id="showMoreBtn" class="btn btn-light mb-1 mx-auto">View other articles</button></a>        
+        </div>
+
+        <br>
+        <hr>
+        <aside class="text-center mb-3">
+            <h6 class="text-muted">Powered by 🇷🇸🇭🇺</h6>
+        </aside>
+
 
         <!-- this links the bootstrap script to the html-->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
@@ -433,18 +386,18 @@
         <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
         <script type="text/javascript">   
 
-            var experienceCalculation = document.getElementById('experienceCalculation');
-            var experienceCalculation1 = document.getElementById('experienceCalculation1');
-            var yearCalculation = document.getElementById('yearCalculated');
+            var experienceCalculation = document.getElementById('yearsExperience');
 
             var yearCalculated = new Date().getFullYear() - 2017;
 
-            experienceCalculation.innerText = " with "+ yearCalculated + " years of experience in the field";
+            experienceCalculation.innerText = yearCalculated + "+ years of Professional Experience";
             
-            experienceCalculation1.innerHTML = "I'm an <b>Embedded System Engineer</b> based in Serbia with " + yearCalculated + " years of experience in the field. I have had the opportunity to work in both large and small companies where I have contributed to the development of various hardware products.";
-                
-            yearCalculation.innerText = "an embedded systems engineer,"
-
+            document.getElementById("showMoreBtn").addEventListener("click", function() {
+                // Show the hidden images
+                document.getElementById("morePortfolio").style.display = "block";
+                // Hide the button
+                this.style.display = "none";
+            });
         </script> 
     </body>
 </html>
