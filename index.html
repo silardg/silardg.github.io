@@ -75,10 +75,21 @@
             }
 
 
+                @media (max-width: 768px) {
+                .card {
+                    flex-direction: column; /* Ensure proper stacking on smaller screens */
+                }
+                }
+
+
              /* Ensures images cover the card width and are the same height */
             .card-img-top {
-                height: 350px;          /* Fixed height for all images */
-                object-fit: cover;      /* Keeps aspect ratio while covering */
+                /* height: 350px;        
+                object-fit: cover;     
+                padding: 8px; */
+                width: 100%;
+                height: auto; /* This will maintain the aspect ratio */
+                object-fit: cover; /* Adjust if necessary to cover or contain */
                 padding: 8px;
             }   
 
