@@ -67,19 +67,14 @@
                 /* border: solid 3px white; */
             }
 
-
-                @media (max-width: 768px) {
+            @media (max-width: 768px) {
                 .card {
                     flex-direction: column; /* Ensure proper stacking on smaller screens */
                 }
-                }
-
+            }
 
              /* Ensures images cover the card width and are the same height */
             .card-img-top {
-                /* height: 350px;        
-                object-fit: cover;     
-                padding: 8px; */
                 width: 100%;
                 height: auto; /* This will maintain the aspect ratio */
                 object-fit: cover; /* Adjust if necessary to cover or contain */
@@ -94,13 +89,10 @@
                 background-color: white !important;
             }
 
-
-            /* .card-img-top:hover {
-                transform: scale(1.05);
+            .card-img-top:hover {
+                transform: scale(1.025);
                 transition: transform 0.5s ease;
-            } */
-
-            
+            }       
         </style>
 
         <!-- Google tag (gtag.js) -->
@@ -135,8 +127,8 @@
         <br>
 
         <!-- Contact Links (Flexbox for even spacing) -->
-        <div class="container text-center" style="background-color: white; color: black;"   >
-            <div class="d-flex justify-content-between flex-wrap gap-3 mx-auto" style="max-width: 600px; font-size: 1.25rem;">
+        <div class="container text-center py-3" style="background-color: white; color: black;">
+            <div class="d-flex justify-content-center flex-wrap gap-3 mx-auto" style="max-width: 600px; font-size: 1.1rem;">
                 <a href="mailto:contact@silardgal.com" target="_blank" class="text-decoration-none">Email</a>
                 <a href="https://www.linkedin.com/in/silard-gal/" target="_blank" class="text-decoration-none">LinkedIn</a>
                 <a href="https://x.com/silardgal" target="_blank" class="text-decoration-none">X</a>
@@ -146,6 +138,8 @@
                 <a href="https://medium.com/@silardg" target="_blank" class="text-decoration-none">Medium</a>
             </div>
         </div>
+        
+        
 
         <br>
 
@@ -159,11 +153,11 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 justify-content-between ">
                 
                 <div class="col">
-                    <a href="https://medium.com/@silardg/over-a-four-week-development-cycle-i-designed-a-compact-yet-powerful-system-on-module-som-based-494d009f2d71" target="_blank">
-                        <div class="card h-100 text-center rounded-0" style="background-color: white;" >
+                    <a class="text-decoration-none" href="https://medium.com/@silardg/over-a-four-week-development-cycle-i-designed-a-compact-yet-powerful-system-on-module-som-based-494d009f2d71" target="_blank">
+                        <div class="card h-100 text-center rounded-0 " style="background-color: white;" >
                             <img src="./media/som.webp" class="card-img-top" alt="Image 1" >
                             <div class="card-body">
-                                <h5 class="card-title">SoM STM32</h5>
+                                <h5 class="card-title ">SoM STM32</h5>
                                 <p style="font-size: small;">Hardware + Firmware</p>
                             </div>
                         </div>
@@ -171,7 +165,7 @@
                 </div>
 
                 <div class="col">
-                    <a href="https://medium.com/@silardg/from-concept-to-mvp-in-just-2-weeks-the-success-story-of-project-crypto-ccacb18f3e4a" target="_blank" >
+                    <a class="text-decoration-none" href="https://medium.com/@silardg/from-concept-to-mvp-in-just-2-weeks-the-success-story-of-project-crypto-ccacb18f3e4a" target="_blank" >
                         <div class="card h-100 text-center rounded-0"  style="background-color: white;" >
                             <img src="./media/crypto.webp" class="card-img-top" alt="Image 1">
                             <div class="card-body">
@@ -183,7 +177,7 @@
                 </div>
 
                 <div class="col">
-                    <a href="https://medium.com/@silardg/an-esp-module-on-steroids-9e405c656071" target="_blank" >
+                    <a class="text-decoration-none" href="https://medium.com/@silardg/an-esp-module-on-steroids-9e405c656071" target="_blank" >
                         <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
                             <img src="./media/module.webp" class="card-img-top" alt="Image 1">
                             <div class="card-body">
@@ -195,7 +189,7 @@
                 </div>
 
                 <div class="col">
-                    <a href="https://medium.com/@silardg/enhancing-power-efficiency-and-flexibility-with-the-power-module-ebd0bb1b690f" target="_blank" >
+                    <a class="text-decoration-none" href="https://medium.com/@silardg/enhancing-power-efficiency-and-flexibility-with-the-power-module-ebd0bb1b690f" target="_blank" >
                         <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
                             <img src="./media/power.webp" class="card-img-top" alt="Image 1">
                             <div class="card-body">
@@ -207,7 +201,7 @@
                 </div>
 
                 <div class="col">
-                    <a href="https://medium.com/@silardg/meet-the-cube-project-a-tiny-three-layered-iot-marvel-5befad8aba16" target="_blank" >
+                    <a class="text-decoration-none" href="https://medium.com/@silardg/meet-the-cube-project-a-tiny-three-layered-iot-marvel-5befad8aba16" target="_blank" >
                         <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
                             <img src="./media/cube.webp" class="card-img-top" alt="Image 1">
                             <div class="card-body">
@@ -219,7 +213,7 @@
                 </div>
 
                 <div class="col">
-                    <a href="https://medium.com/@silardg/building-a-custom-automotive-oriented-usb-hub-3a6814bcdaea2" target="_blank" >
+                    <a class="text-decoration-none" href="https://medium.com/@silardg/building-a-custom-automotive-oriented-usb-hub-3a6814bcdaea2" target="_blank" >
                         <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
                             <img src="./media/hub.webp" class="card-img-top" alt="Image 1">
                             <div class="card-body">
@@ -236,7 +230,7 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 justify-content-between ">
                 
                 <div class="col">
-                    <a href="#" target="_blank" >
+                    <a class="text-decoration-none" href="#" target="_blank" >
                         <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
                             <img src="./media/water.webp" class="card-img-top" alt="Image 1">
                             <div class="card-body">
@@ -248,7 +242,7 @@
                 </div>
 
                 <div class="col">
-                    <a href="#" target="_blank" >
+                    <a class="text-decoration-none" href="#" target="_blank" >
                         <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
                             <img src="./media/plc.webp" class="card-img-top" alt="Image 1">
                             <div class="card-body">
@@ -260,7 +254,7 @@
                 </div>
 
                 <div class="col">
-                    <a href="#" target="_blank" >
+                    <a class="text-decoration-none" href="#" target="_blank" >
                         <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
                             <img src="./media/leds.webp" class="card-img-top" alt="Image 1">
                             <div class="card-body">
@@ -272,7 +266,7 @@
                 </div>
 
                 <div class="col">
-                    <a href="https://medium.com/@silardg/my-experience-with-eurobot-how-it-got-me-into-electronics-part-1-5b5e1cf7e925" target="_blank" >
+                    <a class="text-decoration-none" href="https://medium.com/@silardg/my-experience-with-eurobot-how-it-got-me-into-electronics-part-1-5b5e1cf7e925" target="_blank" >
                         <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
                             <img src="./media/robotics.webp" class="card-img-top" alt="Image 1">
                             <div class="card-body">
@@ -284,7 +278,7 @@
                 </div>
 
                 <div class="col">
-                    <a href="#" target="_blank" >
+                    <a class="text-decoration-none" href="#" target="_blank" >
                         <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
                             <img src="./media/parkingsensor.webp" class="card-img-top" alt="Image 1">
                             <div class="card-body">
@@ -296,7 +290,7 @@
                 </div>
 
                 <div class="col">
-                    <a href="#" target="_blank" >
+                    <a class="text-decoration-none" href="#" target="_blank" >
                         <div class="card h-100 text-center rounded-0"  style="background-color: #000010;">
                             <img src="./media/boxing.webp" class="card-img-top" alt="Image 1">
                             <div class="card-body">
